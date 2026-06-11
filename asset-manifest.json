@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Flex4DHuman/static/css/main.217b4023.chunk.css",
+    "main.js": "/Flex4DHuman/static/js/main.7eb767ba.chunk.js",
+    "main.js.map": "/Flex4DHuman/static/js/main.7eb767ba.chunk.js.map",
+    "runtime-main.js": "/Flex4DHuman/static/js/runtime-main.ff5ec21d.js",
+    "runtime-main.js.map": "/Flex4DHuman/static/js/runtime-main.ff5ec21d.js.map",
+    "static/js/2.45a2985e.chunk.js": "/Flex4DHuman/static/js/2.45a2985e.chunk.js",
+    "static/js/2.45a2985e.chunk.js.map": "/Flex4DHuman/static/js/2.45a2985e.chunk.js.map",
+    "index.html": "/Flex4DHuman/index.html",
+    "precache-manifest.05172dfb470b46a9040d80e3c2d9e9d0.js": "/Flex4DHuman/precache-manifest.05172dfb470b46a9040d80e3c2d9e9d0.js",
+    "service-worker.js": "/Flex4DHuman/service-worker.js",
+    "static/css/main.217b4023.chunk.css.map": "/Flex4DHuman/static/css/main.217b4023.chunk.css.map",
+    "static/js/2.45a2985e.chunk.js.LICENSE.txt": "/Flex4DHuman/static/js/2.45a2985e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff5ec21d.js",
+    "static/js/2.45a2985e.chunk.js",
+    "static/css/main.217b4023.chunk.css",
+    "static/js/main.7eb767ba.chunk.js"
+  ]
+}
