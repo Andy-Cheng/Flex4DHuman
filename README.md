@@ -13,7 +13,7 @@
 <sup>†</sup> Project lead
 
 [![Project Page](https://img.shields.io/badge/Project-Page-1f2d3d)](https://andy-cheng.github.io/Flex4DHuman/)
-[![arXiv](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.13655-b31b1b)](https://arxiv.org/abs/2606.13655)
 [![Data](https://img.shields.io/badge/%F0%9F%A4%97%20Multi--view%20Caption-Data-yellow)](https://huggingface.co/datasets/andaba/multi-view_caption)
 
 </div>
@@ -66,7 +66,7 @@ If you find our work useful, please consider citing:
 @article{cheng2026flex4dhuman,
   title={Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction},
   author={Cheng, Jen-Hao and Wang, Yipeng and Zhang, Hao and Yang, Gengshan and Hwang, Jenq-Neng},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2606.13655},
   year={2026}
 }
 ```
