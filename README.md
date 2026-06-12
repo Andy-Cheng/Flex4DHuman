@@ -29,7 +29,7 @@ synchronized **dense multi-view videos** using only **relative camera-pose condi
 Given one or more reference-view videos, their camera poses, and a set of target camera
 poses, Flex4DHuman synthesizes consistent novel-view videos across the target views
 through camera-pose-conditioned video diffusion. The generated synchronized multi-view
-videos can then be lifted into dynamic 4D Gaussian splats, enabling applications in
+videos can then be lifted into 4D Gaussian splats, enabling applications in
 AR/VR, gaming, simulation, and video re-shooting.
 
 <div align="center">
@@ -40,10 +40,10 @@ AR/VR, gaming, simulation, and video re-shooting.
 
 ## Highlights
 
-- **Flexible input** — works from a single monocular video up to multi-reference views.
+- **Flexible input** — works from a monocular or multi-reference views.
 - **Pose-only conditioning** — relies solely on relative camera poses; no SMPL/geometry priors required.
 - **Synchronized dense multi-view output** — temporally and cross-view consistent novel views.
-- **Direct 4D reconstruction** — generated views fit cleanly into dynamic 4D Gaussian splats.
+- **Direct 4D reconstruction** — generated views can be lifted into 4D Gaussian splats.
 
 ## News
 
