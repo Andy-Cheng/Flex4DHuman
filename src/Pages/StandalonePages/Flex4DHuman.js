@@ -250,7 +250,7 @@ const Flex4DHuman = () => {
                         Acknowledgements
                     </Title>
                     <Paragraph>
-                        We thank Justin Johnson, Keunhong Park, Zixuan Huang, Justin Cui, Bardienus Pieter Duisterhof, Yi Hua, Karan Desai, Mohamed El Banani, Minhao Chen, and Raghav Garg for their valuable discussions. We also thank Christoph Lassner, Ben Mildenhall, and Fei-Fei Li for their support throughout this project. We are grateful to Andreas Sundquist for his guidance on SparkJS, and to Brittani Poeppel and Ian Curtis for their assistance and guidance in the use of the Marble worlds.
+                        We thank Justin Johnson, Keunhong Park, Zixuan Huang, Justin Cui, Bardienus Pieter Duisterhof, Yi Hua, Karan Desai, Mohamed El Banani, Minhao Chen, and Raghav Garg for their valuable discussions. We also thank Christoph Lassner, Ben Mildenhall, and Fei-Fei Li for their support throughout this project. We are grateful to Andreas Sundquist for his guidance on SparkJS, and to Brittani Poeppel and Ian Curtis for their assistance and guidance in the use of the Marble worlds. I thank Claude Code (Opus) for tireless coding and ideation throughout this project.
                     </Paragraph>
 
                     <Title style={{ marginTop: "48px", marginBottom: "16px" }}>
