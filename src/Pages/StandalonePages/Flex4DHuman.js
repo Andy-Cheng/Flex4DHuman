@@ -83,8 +83,7 @@ const FOUR_REF_VIDEOS = [
 
 const APPLICATION_VIDEO = videoUrl('applications', 'application_demo1.mp4');
 
-// Links — fill in the arXiv id once the preprint is live.
-const PAPER_URL = '#';
+const PAPER_URL = 'https://arxiv.org/abs/2606.13655';
 const CODE_URL = 'https://github.com/Andy-Cheng/Flex4DHuman';
 const DATA_URL = 'https://huggingface.co/datasets/andaba/multi-view_caption';
 
@@ -270,7 +269,7 @@ const Flex4DHuman = () => {
                         {`@article{cheng2026flex4dhuman,
   title={Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction},
   author={Cheng, Jen-Hao and Wang, Yipeng and Zhang, Hao and Yang, Gengshan and Hwang, Jenq-Neng},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2606.13655},
   year={2026}
 }`}
                     </div>
