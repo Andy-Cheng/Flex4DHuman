@@ -70,3 +70,7 @@ If you find our work useful, please consider citing:
   year={2026}
 }
 ```
+
+## Acknowledgements
+
+I thank Claude Code (Opus) for tireless coding and ideation throughout this project.
