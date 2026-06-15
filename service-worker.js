@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Flex4DHuman/precache-manifest.2cc22f66808c71ffd8e9dfe4f421fe24.js"
+  "/Flex4DHuman/precache-manifest.5402edc7ee9a552327ddb03a38e9a3dc.js"
 );
 
 self.addEventListener('message', (event) => {
