@@ -83,6 +83,18 @@ const FOUR_REF_VIDEOS = [
 
 const APPLICATION_VIDEO = videoUrl('applications', 'application_demo1.mp4');
 
+const IG_REEL_VIDEOS = [
+    '4dhuman_igreel_demo1.mp4',
+    '4dhuman_igreel_demo2.mp4',
+    '4dhuman_igreel_demo3.mp4'
+].map((name) => videoUrl('ig_reel_demo', name));
+
+const IG_REEL_SOURCES = [
+    'https://www.instagram.com/p/DVk9clGgjMK/',
+    'https://www.instagram.com/reels/DY7GCC5SjjO/',
+    'https://www.instagram.com/p/DWMi3GZhfCW/'
+];
+
 const PAPER_URL = 'https://arxiv.org/abs/2606.13655';
 const CODE_URL = 'https://github.com/Andy-Cheng/Flex4DHuman';
 const DATA_URL = 'https://huggingface.co/datasets/andaba/multi-view_caption';
@@ -245,6 +257,14 @@ const Flex4DHuman = () => {
                         playsInline
                         style={{ display: "block", width: "100%", marginTop: "24px", borderRadius: "6px", background: "#000" }}
                     />
+
+                    <Title style={{ marginTop: "48px" }}>
+                        From an Instagram Reel to 4D
+                    </Title>
+                    <Paragraph>
+                        A user records an Instagram Reel on a mobile phone, then feeds the video frames into Flex4DHuman to generate synchronized multi-view videos — turning a casual single-camera clip into a 4D asset. Click any video below to expand it.
+                    </Paragraph>
+                    <VideoGallery videos={IG_REEL_VIDEOS} sources={IG_REEL_SOURCES} />
 
                     <Title style={{ marginTop: "48px" }}>
                         Acknowledgements

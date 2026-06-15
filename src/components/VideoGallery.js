@@ -23,8 +23,13 @@ const Row = styled.div`
 
 /* Exactly three previews fit the visible width; gap is 12px, so two gaps (24px)
    are subtracted before dividing by three. Additional videos scroll horizontally. */
-const Cell = styled.div`
+const Item = styled.div`
   flex: 0 0 calc((100% - 24px) / 3);
+  display: flex;
+  flex-direction: column;
+`;
+
+const Cell = styled.div`
   position: relative;
   cursor: pointer;
   border-radius: 6px;
@@ -44,6 +49,18 @@ const Cell = styled.div`
   }
 `;
 
+const SourceLink = styled.a`
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #8c8c8c;
+  text-align: center;
+
+  &:hover {
+    color: #1f2d3d;
+  }
+`;
+
 const ExpandHint = styled.div`
   position: absolute;
   bottom: 6px;
@@ -55,25 +72,37 @@ const ExpandHint = styled.div`
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 `;
 
-const VideoGallery = ({ videos }) => {
+const VideoGallery = ({ videos, sources }) => {
     const [active, setActive] = useState(null);
 
     return (
         <>
             <Row>
-                {videos.map((src) => (
-                    <Cell key={src} onClick={() => setActive(src)}>
-                        <video
-                            src={src}
-                            muted
-                            loop
-                            autoPlay
-                            playsInline
-                            preload="metadata"
-                            ref={(el) => { if (el) el.playbackRate = 2; }}
-                        />
-                        <ExpandHint>⤢</ExpandHint>
-                    </Cell>
+                {videos.map((src, i) => (
+                    <Item key={src}>
+                        <Cell onClick={() => setActive(src)}>
+                            <video
+                                src={src}
+                                muted
+                                loop
+                                autoPlay
+                                playsInline
+                                preload="metadata"
+                                ref={(el) => { if (el) el.playbackRate = 2; }}
+                            />
+                            <ExpandHint>⤢</ExpandHint>
+                        </Cell>
+                        {sources && sources[i] && (
+                            <SourceLink
+                                href={sources[i]}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={(e) => e.stopPropagation()}
+                            >
+                                Source Link
+                            </SourceLink>
+                        )}
+                    </Item>
                 ))}
             </Row>
 
